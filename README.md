@@ -16,7 +16,7 @@ This is a Node.js application that allows users to sign up for a newsletter usin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/newsletter-signup.git
+   git clone https://github.com/dpiyumal2319/newsletter-signup.git
    ```
 2. Navigate into the project directory:
    ```bash
