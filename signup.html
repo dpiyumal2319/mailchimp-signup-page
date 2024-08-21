@@ -252,7 +252,7 @@
         </div>
 
         <main class="form-signin w-100 m-auto">
-            <form>
+            <form method="post" action="/"> 
                 <img
                     class="mb-4"
                     src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
@@ -268,6 +268,7 @@
                         id="floatinginput"
                         class="form-control"
                         placeholder="First name"
+                        name="fName"
                         required
                         autofocus
                     />
@@ -278,6 +279,7 @@
                         type="text"
                         id="floatinginput"
                         class="form-control"
+                        name="lName"
                         placeholder="Last name"
                     />
                     <label for="floatinginput">Last name</label>
@@ -287,6 +289,7 @@
                         type="email"
                         id="floatinginput"
                         class="form-control"
+                        name="email"
                         placeholder="exmple@hello.com"
                     />
                     <label for="floatinginput">example@hello.com</label>
